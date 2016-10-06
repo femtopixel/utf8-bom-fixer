@@ -1,19 +1,10 @@
 <?php
-
-$extensions_allowed = array();
-$extensions_allowed [] = 'php';
-$extensions_allowed [] = 'html';
-$extensions_allowed [] = 'phtml';
-$extensions_allowed [] = 'js';
-$extensions_allowed [] = 'css';
-$extensions_allowed [] = 'ini';
-
 class Process
 {
     var $sDirectory = '.';
     var $aAllowedExtensions = array();
 
-    function setAllowedExtension(array $aAllowedExtension = array())
+    function setAllowedExtension($aAllowedExtension = array())
     {
         $this->aAllowedExtensions = $aAllowedExtension;
         return $this;
@@ -62,6 +53,6 @@ class Process
 set_time_limit(0);
 
 $obj = new Process();
-$obj->setDirectory(isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : '.')
-    ->setAllowedExtension(isset($_SERVER['argv'][2]) ? explode(',', $_SERVER['argv'][2]) : array())
-    ->run();
+$obj->setDirectory(isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : '.');
+$obj->setAllowedExtension(isset($_SERVER['argv'][2]) ? explode(',', $_SERVER['argv'][2]) : array());
+$obj->run();
