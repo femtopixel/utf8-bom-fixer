@@ -1,7 +1,9 @@
-# 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%204.3-8892BF.svg?style=flat-square)](https://php.net/)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.0-8892BF.svg?style=flat-square)](https://php.net/)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg?style=flat-square)](https://php.net/)
+[![Build Status](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/?branch=master)
 [![license](https://img.shields.io/github/license/femtopixel/utf8-bom-fixer.svg?maxAge=2592000)]()
 
 UTF-8 BOM Fixer
