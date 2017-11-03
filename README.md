@@ -5,6 +5,8 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/femtopixel/utf8-bom-fixer/?branch=master)
 [![license](https://img.shields.io/github/license/femtopixel/utf8-bom-fixer.svg?maxAge=2592000)]()
+[![Bitcoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/btc.png "Bitcoin donation")](https://m.freewallet.org/id/374ad82e/btc)
+[![Litecoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ltc.png "Litecoin donation")](https://m.freewallet.org/id/374ad82e/ltc)
 
 UTF-8 BOM Fixer
 ===
