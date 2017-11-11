@@ -1,3 +1,6 @@
+UTF-8 BOM Fixer
+===============
+
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%204.3-8892BF.svg?style=flat-square)](https://php.net/)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.0-8892BF.svg?style=flat-square)](https://php.net/)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg?style=flat-square)](https://php.net/)
@@ -7,9 +10,9 @@
 [![license](https://img.shields.io/github/license/femtopixel/utf8-bom-fixer.svg?maxAge=2592000)]()
 [![Bitcoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/btc.png "Bitcoin donation")](https://m.freewallet.org/id/374ad82e/btc)
 [![Litecoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ltc.png "Litecoin donation")](https://m.freewallet.org/id/374ad82e/ltc)
+[![PayPal donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png "PayPal donation")](https://www.paypal.me/jaymoulin)
+[![Beerpay donation](https://beerpay.io/femtopixel/utf8-bom-fixer/badge.svg "Beerpay donation")](https://beerpay.io/femtopixel/utf8-bom-fixer)
 
-UTF-8 BOM Fixer
-===
 Fix files "infected" by UTF-8 bom character. This script will remove the BOM character at the beginning of each files.
 
 This character purpose is to force encode files in UTF-8 by adding a special character at the beginning of the file.
