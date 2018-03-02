@@ -6,7 +6,7 @@ ENV PATH="/root:$PATH"
 
 COPY bomreplacer.php /usr/bin/bomreplacer
 WORKDIR /src
-RUN apk add php7 php7-iconv php7-tokenizer php7-dom php7-mbstring --update --no-cache
+RUN apk add php7 --update --no-cache
 VOLUME ['/src']
 
 CMD [ "bomreplacer" ]

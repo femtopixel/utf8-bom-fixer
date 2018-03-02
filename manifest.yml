@@ -1,18 +1,23 @@
 image: femtopixel/utf8-bom-fixer:$FULLVERSION
 manifests:
   -
-    image: femtopixel/utf8-bom-fixder:$VERSION-arm32v7
+    image: femtopixel/utf8-bom-fixer:$VERSION-arm32v6
     platform:
       architecture: arm
-      variant: v7
+      variant: v6
       os: linux
   -
-    image: femtopixel/utf8-bom-fixder:$VERSION-i386
+    image: femtopixel/utf8-bom-fixer:$VERSION-arm64v8
     platform:
-      architecture: 386
+      architecture: arm64
       os: linux
   -
-    image: femtopixel/utf8-bom-fixder:$VERSION-amd64
+    image: femtopixel/utf8-bom-fixer:$VERSION-amd64
     platform:
       architecture: amd64
+      os: linux
+  -
+    image: femtopixel/utf8-bom-fixer:$VERSION-i386
+    platform:
+      architecture: 386
       os: linux
