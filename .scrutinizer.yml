@@ -10,11 +10,3 @@ coding_style:
                 concatenation: true
             other:
                 after_type_cast: false
-build:
-    tests:
-        override:
-            -
-                command: 'composer phpunit'
-                coverage:
-                    file: 'build/logs/clover.xml'
-                    format: 'clover'
