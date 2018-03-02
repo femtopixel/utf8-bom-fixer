@@ -1,0 +1,18 @@
+image: femtopixel/utf8-bom-fixer:$FULLVERSION
+manifests:
+  -
+    image: femtopixel/utf8-bom-fixder:$VERSION-arm32v7
+    platform:
+      architecture: arm
+      variant: v7
+      os: linux
+  -
+    image: femtopixel/utf8-bom-fixder:$VERSION-i386
+    platform:
+      architecture: 386
+      os: linux
+  -
+    image: femtopixel/utf8-bom-fixder:$VERSION-amd64
+    platform:
+      architecture: amd64
+      os: linux

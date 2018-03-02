@@ -11,7 +11,6 @@ UTF-8 BOM Fixer
 [![Bitcoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/btc.png "Bitcoin donation")](https://m.freewallet.org/id/374ad82e/btc)
 [![Litecoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ltc.png "Litecoin donation")](https://m.freewallet.org/id/374ad82e/ltc)
 [![PayPal donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png "PayPal donation")](https://www.paypal.me/jaymoulin)
-[![Beerpay donation](https://beerpay.io/femtopixel/utf8-bom-fixer/badge.svg "Beerpay donation")](https://beerpay.io/femtopixel/utf8-bom-fixer)
 
 Fix files "infected" by UTF-8 bom character. This script will remove the BOM character at the beginning of each files.
 
@@ -43,3 +42,22 @@ php bomreplacer.php /home/www php,css
 ```
 
 Will fix all **PHP** and **CSS** files in **/home/www** folder but will leave the other files as-is.
+
+Docker Usage
+===========
+
+```
+docker run --rm -ti -v "$PWD":/src femtopixel/utf8-bom-fixer
+```
+
+Will fix all files in your current path. You can call `bomreplacer` if you want to pass specific parameters
+
+Example
+-------
+
+```
+docker run --rm -ti -v "$PWD:/src" femtopixel/utf8-bom-fixer bomreplacer /src php,css
+```
+
+Will fix all **PHP** and **CSS** files in current directory but will leave the other files as-is.
+
