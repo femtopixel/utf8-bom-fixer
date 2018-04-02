@@ -1,3 +1,5 @@
+![logo](logo.png)
+
 UTF-8 BOM Fixer
 ===============
 
