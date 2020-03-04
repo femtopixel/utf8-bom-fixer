@@ -1,6 +1,6 @@
 FROM alpine
 COPY qemu-*-static /usr/bin/
-LABEL maintainer="Jay MOULIN <https://femtopixel.com/femtopixel/utf-bom-fixer> <https://twitter.com/MoulinJay>"
+LABEL maintainer="Jay MOULIN <https://jaymoulin.me/femtopixel/utf-bom-fixer> <https://twitter.com/MoulinJay>"
 
 ENV PATH="/root:$PATH"
 
