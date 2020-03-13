@@ -11,6 +11,8 @@ UTF-8 BOM Fixer
 [![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png "Buy me a coffee")](https://www.buymeacoffee.com/3Yu8ajd7W)
 [![Become a Patron](https://badgen.net/badge/become/a%20patron/F96854 "Become a Patron")](https://patreon.com/jaymoulin)
 
+(This product is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added.)
+
 Fix files "infected" by UTF-8 bom character. This script will remove the BOM character at the beginning of each files.
 
 This character purpose is to force encode files in UTF-8 by adding a special character at the beginning of the file.
